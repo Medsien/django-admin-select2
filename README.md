@@ -1,15 +1,15 @@
-# django-admin-select2
+# django3-admin-select2
 
-Enable select2 for Django admin `select` inputs.
+Enable select2 for Django3 admin `select` inputs.
 
 Automatically applies to all `select`s, excluding filtered selects (e.g. `auth.User.groups`).
 
-Tested with Django versions 1.11 and 2.0.
+Tested with Django version 3.1.8.
 
 ## Installation
 
 ```shell
-pip install django-admin-select2
+pip install django3-admin-select2
 ```
 
 Update `settings.py`:
@@ -18,7 +18,7 @@ Update `settings.py`:
 INSTALLED_APPS = [
     ...
     # must go before django.contrib.admin
-    'django_admin_select2',
+    'django3_admin_select2',
     ...
 ]
 ```

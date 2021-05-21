@@ -1,8 +1,28 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Django ###
+*.log
+*.pot
 *.pyc
-env
-test_app/env
+__pycache__/
+
+.env
+test-env
 node_modules
 dist
 *.egg-info
 MANIFEST
 *.sqlite3
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+celerybeat-schedule
+
+### JETBRAINS ###
+.idea/
