@@ -1,8 +1,8 @@
 {
   "name": "django3_admin_select2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Enable select2 for Django3 admin select inputs",
-  "author": "Medsien (originally Matthew Downey)",
+  "author": "Medsien, Inc.",
   "repository": "https://github.com/Medsien/django3-admin-select2",
   "license": "MIT",
   "devDependencies": {

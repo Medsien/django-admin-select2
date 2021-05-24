@@ -25,11 +25,11 @@ def get_package_data(package):
 
 setup(
     name='django3_admin_select2',
-    version='1.0.0',
+    version='0.1.0',
     description='Enable select2 for Django3 admin select inputs',
     long_description=get_long_description(),
-    author='Medsien (originally Matthew Downey)',
-    author_email='hello@medsien.com (originally mgd020@gmail.com)',
+    author='Medsien, Inc.',
+    author_email='hello@medsien.com',
     url='https://github.com/Medsien/django3-admin-select2',
     packages=[
         'django3_admin_select2',

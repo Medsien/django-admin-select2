@@ -17,12 +17,5 @@ dist
 MANIFEST
 *.sqlite3
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
-
-celerybeat-schedule
-
 ### JETBRAINS ###
 .idea/
