@@ -1,12 +1,12 @@
 {% extends "admin/base.html" %}
 
-{% load staticfiles %}
+{% load static %}
 
-{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
 
 {% block extrahead %}
     {{ block.super }}
-    <link href="{% static 'django_admin_select2/css/select2.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'django3_admin_select2/css/select2.min.css' %}" rel="stylesheet" />
 {% endblock %}
 
 {% block branding %}
@@ -22,7 +22,7 @@
         <script src="{% static 'admin/js/jquery.init.js' %}"></script>
     {% endif %}
     <script>window.jQuery = window.$ = django.jQuery;</script>
-    <script src="{% static 'django_admin_select2/js/select2.min.js' %}"></script>
+    <script src="{% static 'django3_admin_select2/js/select2.min.js' %}"></script>
     <script>
         $(document).ready(function() {
             {# timeout required because filtered is added after load #}

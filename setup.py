@@ -24,18 +24,18 @@ def get_package_data(package):
 
 
 setup(
-    name='django-admin-select2',
-    version='1.0.1',
-    description='Enable select2 for Django admin select inputs',
+    name='django3_admin_select2',
+    version='0.1.0',
+    description='Enable select2 for Django3 admin select inputs',
     long_description=get_long_description(),
-    author='Matthew Downey',
-    author_email='mgd020@gmail.com',
-    url='https://github.com/mgd020/django-admin-select2',
+    author='Medsien, Inc.',
+    author_email='hello@medsien.com',
+    url='https://github.com/Medsien/django3-admin-select2',
     packages=[
-        'django_admin_select2',
+        'django3_admin_select2',
     ],
     package_data={
-        'django_admin_select2': list(get_package_data('django_admin_select2')),
+        'django3_admin_select2': list(get_package_data('django3_admin_select2')),
     },
     keywords=['django', 'django-admin', 'select2'],
 )

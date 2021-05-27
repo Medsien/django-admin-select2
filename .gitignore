@@ -1,8 +1,22 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Django ###
+*.log
+*.pot
 *.pyc
-env
-test_app/env
+__pycache__/
+
+.env
+test-env
+build
 node_modules
 dist
 *.egg-info
 MANIFEST
 *.sqlite3
+
+### JETBRAINS ###
+.idea/
