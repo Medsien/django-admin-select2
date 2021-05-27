@@ -5,10 +5,10 @@ import os
 
 
 try:
-    from pypandoc import convert
+    from pypandoc import convert_file
 
     def get_long_description():
-        return convert('README.md', 'rst')
+        return convert_file('README.md', 'rst')
 except Exception:
     def get_long_description():
         pass
